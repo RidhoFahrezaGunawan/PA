@@ -1,0 +1,110 @@
+@import url("https://font.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900%display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Prompt:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color:#f6f6f6;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    padding-left: 100px;
+    background-color: #f6f6f6 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 200; */
+    background-color: burlywood;
+}
+
+/* bagian navbar */
+.navbar {
+    /* display: flex; */
+    margin-right: 50px;
+}
+
+.navbar a {
+    position: relative;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 550;
+    color:#0779E4;
+}
+
+.navbar ::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background:#0779E4 ;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+    
+    /* transition: 5ms; */
+}
+
+.navbar button {
+    margin-right: 20px;
+    padding: 8px;
+    background-color: #0779E4;
+    border-radius: 10px;
+    border: solid 1px ;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: #2F327D;
+    font-family: 'Kanit', sans-serif;
+}
+
+.tombol {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.jumbutron {
+    display: flex;
+    margin-top: 85px;
+    background-color: brown;
+    gap: 2rem;
+    padding-left: 100px;
+}
+
+/* .gambar-prof{
+    border-radius: 9999px;
+    object-fit: cover;
+    object-position: center; */
+/* } */
+
+.gambar-prof img {
+    height: 120px;
+    max-width: 120px; 
+    object-fit: cover;
+    object-position: center;   
+    border-radius: 100%
+}
+
+.wrap-2{
+    display: flex;
+    gap: 0.5rem;
+}

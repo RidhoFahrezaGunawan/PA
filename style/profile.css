@@ -1,0 +1,227 @@
+@import url("https://font.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900%display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&family=Prompt:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color:#f6f6f6;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    padding-left: 100px;
+    background-color: #f6f6f6 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 200; */
+}
+
+/* bagian navbar */
+.navbar {
+    /* display: flex; */
+    margin-right: 50px;
+}
+
+.navbar a {
+    position: relative;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 550;
+    color:#0779E4;
+}
+
+.navbar ::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background:#0779E4 ;
+    transition: .3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+    
+    /* transition: 5ms; */
+}
+
+.navbar button {
+    margin-right: 20px;
+    padding: 8px;
+    background-color: #0779E4;
+    border-radius: 10px;
+    border: solid 1px ;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: #0779E4;
+    font-family: 'Kanit', sans-serif;
+}
+
+.tombol {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+/* profile kecil */
+
+.profile-kecil {
+    /* margin: 50px auto; */
+    background-color: #0779E4;
+    height: 360px;
+    width: 100%;
+}
+
+.foto {
+    display: inline-block;
+    margin-left: 330px;
+    margin-top: 20px;
+}
+
+.foto img {
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.user {
+    display: inline-block;
+    padding-left: 30px;
+    
+}
+
+.user p {
+    opacity: 80%;
+}
+
+/* profile-besar */
+
+.profile-besar {
+    margin-top: 20px ;
+    margin-left: 350px;
+}
+
+/* kiri  */
+.kiri {
+    display: inline-block;
+}
+
+.kiri img{
+    display: inline-block;
+    margin-top: 60px;
+    width: 300px;
+    height: 300px;
+}
+
+/* tengah  */
+.tengah {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.tengah input[type="text"]{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 7px;
+    width: 400px;
+    height: 40px;
+}
+
+/* kanan  */
+.kanan {
+    display: inline-block;
+    
+}
+
+.tombol button {
+    width: 120px;
+    margin-top: 20px ;
+    margin-left: 350px;
+    padding: 13px;
+    border: 1px solid #f6f6f6;
+    border-radius: 8px;
+    background-color: #0779E4;
+    color: #f6f6f6;
+}
+
+/* bawah */
+.bawah {
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
+/* footer  */
+.footer {
+    margin-top: 70px;
+    width:  100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        #3887BE,
+        #38419D,
+        #200E3A)
+}
+
+.logo2 {
+    margin-left: 280px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.kiri-footer {
+    padding-top: 70px;
+}
+
+.svg {
+    margin-left: 280px;
+    padding: 10px;
+    margin-top:5px ;
+}
+.svg2 {
+    padding: 10px;
+    margin-top:5px ;
+}
+.svg3 {
+    padding: 10px;
+    margin-top:5px ;
+}
+.svg4 {
+    padding: 10px;
+    margin-top:5px ;
+}
+
+.kiri-footer img:hover {
+    background-color: #1D24CA;
+   
+}
+.copyright {
+    margin-top: 80px;
+    margin-left: 280px ;
+    color: aliceblue;
+    opacity: 80%;
+}
